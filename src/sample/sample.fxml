@@ -22,7 +22,6 @@
         <Label fx:id="mylabel1" text="${topLabel.text}" tooltip="$mytooltip"/>
         <Label fx:id="mylabel2" text="ww"/>
     </fx:define>
-
     <TextField fx:id="tf" onAction="#passTxt" GridPane.rowIndex="3"/>
     <Button onAction="#sayHello" text="%b_text" fx:id="b1" tooltip="$mytooltip">
         <properties pp1="pp1_value" pp2="pp2_value"/>

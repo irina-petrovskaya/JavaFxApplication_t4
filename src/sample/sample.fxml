@@ -29,7 +29,6 @@
     </Button>
     <Label fx:id="topLabel" GridPane.rowIndex="1" underline="true"/>
     <ScrollPane GridPane.rowIndex="5" content="$mylabel1"/>
-
     <ScrollPane GridPane.rowIndex="6" content="$mylabel2"/>
 
 </GridPane>

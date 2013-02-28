@@ -26,7 +26,8 @@
     <Button onAction="#sayHello" text="%b_text" fx:id="b1" tooltip="$mytooltip">
         <properties pp1="pp1_value" pp2="pp2_value"/>
     </Button>
-    <Label fx:id="topLabel" GridPane.rowIndex="1" underline="true"/>
+    <Label fx:id="topLabel" GridPane.rowIndex="1" underline="true" textFill="darkgreen"/>
     <ScrollPane GridPane.rowIndex="5" content="$mylabel1"/>
     <ScrollPane GridPane.rowIndex="6" content="$mylabel2"/>
+    <fx:include source="included.fxml" GridPane.rowIndex="7"/>
 </GridPane>

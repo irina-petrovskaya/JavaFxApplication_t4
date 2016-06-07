@@ -1,5 +1,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.control.Label?>
-<VBox xmlns:fx="http://javafx.com/fxml">
-    <Label fx:id="topLabel" text="FOOOOO"/>
+<VBox xmlns:fx="http://javafx.com/fxml" stylesheets="@style0.css">
+    <Label fx:id="topLabel" text="topLabel" styleClass="topLabelStyle"/>
+    <fx:include source="aaa.fxml"/>
 </VBox>

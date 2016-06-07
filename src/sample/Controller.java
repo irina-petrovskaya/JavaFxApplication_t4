@@ -19,6 +19,7 @@ import javafx.scene.control.TextField;
 public class Controller {
     public Button b1;
     public Label topLabel;
+    public Button bbbb;
     @FXML
     TextField tf;
     public void sayHello(ActionEvent event) {
@@ -29,5 +30,11 @@ public class Controller {
 
     public void passTxt(ActionEvent actionEvent) {
        topLabel.setText(tf.getText());
+    }
+
+
+    @FXML
+    private void bbbb(ActionEvent actionEvent) {
+        bbbb.setText("bbbb");
     }
 }

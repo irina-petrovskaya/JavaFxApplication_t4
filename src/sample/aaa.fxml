@@ -3,7 +3,7 @@
 <?import javafx.scene.control.Button?>
 <?import sample.CustomComp?>
 <VBox xmlns:fx="http://javafx.com/fxml" >
-   <Button >
+   <Button>
        <CustomComp fx:value="foo"/>
    </Button>
 </VBox>
